@@ -1,0 +1,56 @@
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: navy;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+  }
+/* Style the links inside the navigation bar */
+.navbar a {
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: royalblue;
+    color: black;
+}
+
+  /* Add a color to the active/current link */
+.navbar a.active {
+    background-color: lightcyan;
+    color: white;
+}
+.navbar img {
+  width: 250px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 2%;
+    text-align: center;
+    width: 25%;
+
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+.card-gallery {
+  margin: 0 -50px;
+  display: block;
+}
+
+.socials img{
+  width: 10%;
+  flex: content;
+  align-items: center;
+}

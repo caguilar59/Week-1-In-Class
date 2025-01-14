@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+
+.container > #pic2 {
+    flex: 1 0 0%;
+    padding-right: 2px;
+    padding-left: 2px;
+
+}
+.container > p {
+    flex-direction: 2 0 0%;
+}
